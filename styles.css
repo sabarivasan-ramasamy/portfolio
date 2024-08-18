@@ -1,0 +1,490 @@
+li {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.whole-header {
+    color: aliceblue;
+    background-color: rgb(48, 48, 48);
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    background-image: linear-gradient(to left top, #00b75f, #00b585, #00b1a3, #00abb6, #00a3be, #0095bd, #0086ba, #0076b4, #005ca6, #004195, #002681, #000268);
+}
+
+.navbarText {
+    color: #000000;
+    padding: 10% 15%;
+}
+
+.navbar {
+    margin-top: 5%;
+    text-align: left;
+}
+
+.liClsNavBar {
+    text-align: center;
+    padding: 8% 5%;
+    margin: 5% 0;
+    border-bottom-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    cursor: pointer;
+}
+
+a {
+    font-size: large;
+    font-family: 'Bree Serif';
+}
+
+a:hover {
+    color: yellow;
+}
+
+.liClsNavBar:hover {
+    box-shadow: 5px 2px 20px whitesmoke;
+}
+
+.navbarBottom {
+    margin-bottom: 100%;
+}
+
+.user {
+    text-align: center;
+    margin-right: 15%;
+    font-family: 'Secular One';
+}
+
+.name {
+    font-family: 'Pacifico';
+    margin-top: 15%;
+    color: rgb(255, 198, 77);
+    transition: transform .2s;
+}
+
+.name:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.35);
+}
+
+.gra-img {
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
+@media screen and (min-width: 1024px) {
+    #Toggler {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 949px) {
+    #NavBarSec {
+        display: none;
+    }
+}
+
+
+/* MenuBar */
+
+.BurgerIcon {
+    background-color: rgb(0, 0, 0);
+    padding: 15% 15%;
+    border-radius: 1rem;
+}
+
+.upDiv {
+    top: 5%;
+    margin-right: 3%;
+    float: right;
+}
+
+@media screen and (max-width: 450px) {
+    .BurgerIcon {
+        padding: 35% 35%;
+        font-size: x-large;
+    }
+    .upDiv {
+        margin-right: 6%;
+    }
+}
+
+
+/* model */
+
+.navbarTextModel {
+    padding: 5% 15%;
+    border-bottom-left-radius: 10rem;
+    border-top-right-radius: 10rem;
+}
+
+.liClsNavBar2 {
+    padding: 0 10%;
+}
+
+.ModelItems {
+    padding: 1.5% 20%;
+}
+
+.userModel {
+    text-align: center;
+    font-family: 'Secular One';
+}
+
+.wholeModel {
+    padding-top: 5%;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(to left top, #00b75f, #00b585, #00b1a3, #00abb6, #00a3be, #0095bd, #0086ba, #0076b4, #005ca6, #004195, #002681, #000268);
+}
+
+.navbarTextModel {
+    font-weight: bolder;
+    font-size: large;
+    color: wheat;
+    text-align: center;
+    font-family: 'Bree Serif';
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
+
+/* Image Home */
+
+.avatar-user {
+    border-radius: 10rem !important;
+    box-shadow: 0px 5px 10px 3px #000000;
+}
+
+#home,
+.wholeBody {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+}
+
+.homeName {
+    font-family: 'Acme';
+    color: darkblue;
+    margin: 3% 0;
+}
+
+.home-para {
+    font-family: 'Kanit';
+    font-size: larger;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.homeFullCont {
+    padding: 2% 5%;
+}
+
+@media screen and (max-width: 320px) {
+    .homeFullCont {
+        padding: 2% 1%;
+    }
+}
+
+
+/* about */
+
+#about,
+#project {
+    background-color: rgb(0, 0, 0);
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+}
+
+.headingTemp {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: #f9ca24;
+}
+
+span {
+    color: whitesmoke;
+}
+
+.abtInfos {
+    color: #f9ca24;
+    font-size: 1.5rem;
+    padding: 1.5% 0;
+    padding-left: 7%;
+    font-family: 'Bree Serif';
+}
+
+.abtTop {
+    margin-top: 10%;
+}
+
+.Abtlinks {
+    background-color: #f9ca24;
+    padding: 5% 2%;
+}
+
+.infoLinksDiv {
+    text-align: center;
+    padding-right: 15%;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.infoLinksDiv a {
+    color: #000000;
+    font-size: x-large;
+}
+
+.dowloadCV {
+    padding: 7% 30%;
+    margin-bottom: 4%;
+}
+
+
+/* Qualification */
+
+.QuaHead {
+    color: darkblue;
+}
+
+.card {
+    font-family: 'Bree Serif';
+    color: #000268;
+    background: transparent;
+    box-shadow: 5px 2px 10px rgb(49, 49, 49);
+}
+
+.card:hover {
+    box-shadow: 5px 2px 20px rgb(49, 49, 49);
+}
+
+.cardWhole {
+    text-align: center;
+    padding: 3% 3%;
+}
+
+.cardHeader {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-top: 2%;
+}
+
+.cardBody {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.CardIcons {
+    background-color: white;
+    color: darkblue;
+    padding: 3% 3%;
+    border-radius: 1rem;
+    font-size: larger;
+    background-image: url("https://www.transparenttextures.com/patterns/diamond-eyes.png");
+}
+
+.far {
+    color: darkblue;
+}
+
+.cardText {
+    color: #000268;
+    margin-left: 5%;
+}
+
+.cardList {
+    margin: 5% 0;
+}
+
+.skillEnd {
+    margin-bottom: 5%;
+}
+
+
+/* Projects */
+
+.projectsWhole {
+    color: #f9ca24;
+    padding: 3% 5%;
+    font-family: 'Bree Serif';
+}
+
+.projectHover {
+    padding: 5% 5%;
+    padding-left: 10%;
+    font-size: larger;
+}
+
+
+/* contact */
+
+.contact {
+    padding: 3% 15%;
+    padding-bottom: 0;
+}
+
+.contactIcons {
+    margin-right: 5%;
+    padding: 1% 1%;
+    border-radius: 1rem;
+    color: black;
+    background-color: white;
+}
+
+.contactIcons:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.DineshName {
+    font-family: 'Pacifico';
+    color: #000000;
+}
+
+.AllHeading {
+    font-family: 'Arvo';
+}
+
+/* SECTION 4: Contact */
+.contact-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+    color: white;
+  }
+  
+  .contact-section h2 {
+    font-size: 35px;
+  }
+  
+  .contact-section .group {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .contact-section .group .text {
+    flex: 3;
+    margin-top: 20px;
+  }
+  
+  .contact-section .group form {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-section .group form input,
+  .contact-section .group form textarea {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 15px;
+    color:white;
+    outline: none;
+    resize: none;
+  }
+  
+  .contact-section .group form button {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    transition: .1s;
+  }
+  
+  .contact-section .group form button:hover {
+    filter: brightness(.9);
+  }
+  
+  /* Media queries and additional styles */
+  
+  @media (max-width: 850px) {
+    /* SECTION 1: Hero */
+    .hero-section .text h2 {
+      font-size: 35px;
+    }
+  }
+  
+  @media (max-width: 740px) {
+    /* SECTION 1: Hero */
+    .hero-section {
+      flex-direction: column-reverse;
+    }
+  
+    .hero-section .headshot img {
+      width: 300px;
+    }
+}
+/* SECTION 3: Testimony */
+.testimony-section {
+    text-align: center;
+  }
+
+  .testimony-section .group {
+    flex-direction: column;
+  }
+
+  /* SECTION 4: Contact */
+  .contact-section .group {
+    flex-direction: column;
+  }
+
+
+@media (max-width: 600px) {
+  /* NAVBAR */
+  nav {
+    padding: 0 20px;
+  }
+
+  nav .right a {
+    font-size: 22px;
+  }
+
+  nav .right a:last-child {
+    color: var(--text-color);
+    background-color: transparent;
+    padding: 0;
+  }
+
+  nav .right a span {
+    display: none;
+  }
+
+  /* SECTION 1: Hero */
+  .hero-section {
+    padding: 0 20px;
+  }
+
+  .hero-section .text h2 {
+    font-size: 30px;
+  }
+
+  /* SECTION 2: Skills */
+  .skills-section {
+    padding: 0 20px;
+  }
+
+  .skills-section .cells .cell span {
+    font-size: 16px;
+  }
+
+  /* SECTION 3: Testimony */
+  .testimony-section {
+    padding: 0 20px;
+  }
+
+  /* SECTION 4: Contact */
+  .contact-section {
+    color: white;
+    padding: 0 20px;
+  }
+} 
